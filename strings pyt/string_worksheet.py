@@ -31,3 +31,16 @@
 # txt = txt [::-1]
 # print(txt)
 
+# 14. Write a loop that prints only the vowels in a given word.
+
+# vowels = ['a','e','i','o','u']
+
+# word = input("Enter your word: ")
+
+# vowels_in_word = ""
+
+# for char in word:
+#     if char.lower() in vowels:
+#         vowels_in_word += char + ","
+
+# print(vowels_in_word)
