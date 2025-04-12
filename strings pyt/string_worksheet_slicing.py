@@ -20,8 +20,19 @@
 
 # 26. Write a program that checks if the word 'data' is found within a sentence entered by the user.
 
-string = 'Computer Science'
-check_string = 'data'
+# string = 'Computer Science'
+# check_string = 'data'
+# if check_string in string:
+#     print('Found')
+# else:
+#     print('Not Found')
+
+# Bonus Challenge:
+# 36. Write a program that takes a paragraph as input, converts it to lowercase, and verifies if the word 'python' appears in it.
+
+string = "Lorem ipsum dolor sit amet consectetur adipisicing elit. python Officiis itaque veritatis et omnis enim voluptatum pariatur quae doloribus eveniet ipsum dolores inventore, maxime veniam reiciendis."
+
+check_string = 'python'
 if check_string in string:
     print('Found')
 else:
