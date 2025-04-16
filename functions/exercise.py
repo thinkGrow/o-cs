@@ -60,10 +60,40 @@
 # 5. Repeat a Word
 # Write a function called repeat_word that takes a word and a number n, and returns the word repeated n times (as a single string).
 
-def repeat_word(word, n):
-    word = word + "\n"
-    return word * n
+# def repeat_word(word, n):
+#     word = word + "\n"
+#     return word * n
 
-a = repeat_word("Messi", 10)
+# a = repeat_word("Messi", 10)
 
-print(a)
+# print(a)
+
+# 6. Write a function find_max that takes a list of numbers and returns the largest number.
+
+
+# def find_max(numbers):
+#     max_num = numbers[0]
+#     for num in numbers:
+#         if num > max_num:
+#             max_num = num
+#     return max_num
+
+
+# numbers = [1,2,3,4,5,6,7,8,9]
+
+
+# find_max = find_max(numbers)
+
+# print(find_max)
+
+# 7. Multiply by Ten
+# Write a function multiply_by_ten(x) that returns the number multiplied by 10.
+
+# 8. First Letter
+# Write a function first_letter(word) that returns the first letter of the given word.
+
+# 9. List Length
+# Write a function list_length(lst) that returns the number of items in the list.
+
+# 10. Double All Numbers
+# Write a function double_list(nums) that takes a list of numbers and returns a new list where each number is doubled.
